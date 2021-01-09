@@ -38,7 +38,7 @@ button.on("click", () => {
     }
 
     
-    // When date is not available
+    // If no data on selected date
         else {
             tbody.append("tr").append("td").text("No UFO's this day!");
         }
